@@ -1,0 +1,36 @@
+.page_header {
+    z-index: 0;
+    height: 260px;
+}
+
+.page_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.page_header h1 {
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+}
+
+.page_main {
+    margin-top: 70px;
+}
+
+.line {
+    width: 240px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.shop_img {
+    height: 847px;
+    width: 100%;
+}

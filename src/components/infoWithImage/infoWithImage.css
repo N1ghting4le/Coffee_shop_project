@@ -1,0 +1,35 @@
+.page_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 697px;
+    margin-bottom: 60px;
+}
+
+.page_wrapper > img {
+    object-fit: cover;
+    width: 272px;
+    height: 355px;
+}
+
+.page_wrapper h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 9px;
+}
+
+.about_our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 346px;
+    height: 355px;
+}
+
+.about_our img {
+    margin-bottom: 25.7px;
+}
+
+.about_our p {
+    text-align: center;
+    margin-bottom: 25px;
+}
