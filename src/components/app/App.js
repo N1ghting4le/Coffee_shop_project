@@ -2,6 +2,7 @@ import './app.css';
 import { lazy, Suspense, useState } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import AppFooter from '../appFooter/AppFooter';
+import AppHeader from '../appHeader/AppHeader';
 
 const MainPage = lazy(() => import('../../pages/mainPage/MainPage'));
 const CoffeePage = lazy(() => import('../../pages/coffeePage/CoffeePage'));
@@ -18,6 +19,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <AppHeader/>
         <Suspense>
           <Routes>
             <Route path="/" element={<MainPage onItemSelected={onItemSelected}/>}/>

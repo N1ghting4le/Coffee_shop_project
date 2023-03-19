@@ -45,6 +45,7 @@
     font-family: 'Merienda';
     text-align: center;
     background: #FFFFFF;
+    transition: background-color 0.2s, color 0.2s;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
     border: 0;
     cursor: pointer;
@@ -55,8 +56,7 @@
 }
 
 #second_btn {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-inline: 5px;
 }
 
 #third_btn {
@@ -66,4 +66,5 @@
 .active_btn {
     background-color: #000000 !important;
     color: white;
+    transition: background-color 0.2s, color 0.2s;
 }

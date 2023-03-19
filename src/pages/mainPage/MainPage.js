@@ -1,5 +1,4 @@
 import './mainPage.css';
-import AppHeader from '../../components/appHeader/AppHeader';
 import BestGoodsList from '../../components/bestGoodsList/BestGoodsList';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
@@ -21,7 +20,6 @@ const MainPage = ({onItemSelected}) => {
                 <div className="main_page_bg">
                     <img src="images/desk_new.jpg" alt="desk" className="desk_img"></img>
                 </div>
-                <AppHeader/>
                 <div className="wrapper">
                     <h1>Everything You Love About Coffee</h1>
                     <img className="beans_logo" src="images/Beans logo.png" alt="beans logo"></img>

@@ -1,5 +1,4 @@
 import './singleItemPage.css';
-import AppHeader from '../../components/appHeader/AppHeader';
 import LargeItem from '../../components/largeItem/LargeItem';
 import { Helmet } from 'react-helmet';
 import { createContext } from 'react';
@@ -20,7 +19,6 @@ const SingleItemPage = ({selectedItem}) => {
                 <div className="page_bg">
                     <img src="images/coffee_shop.jfif" alt="coffee shop" className="shop_img"></img>
                 </div>
-                <AppHeader/>
                 <h1>Our coffee</h1>
             </div>
             <main className="single_item_main">

@@ -1,5 +1,4 @@
 import './coffeePage.css';
-import AppHeader from '../../components/appHeader/AppHeader';
 import InfoWithImage from '../../components/infoWithImage/InfoWithImage';
 import FiltersAndSearch from '../../components/filtersAndSearch/FiltersAndSearch';
 import GoodsList from '../../components/goodsList/GoodsList';
@@ -33,7 +32,6 @@ const CoffeePage = ({onItemSelected}) => {
                 <div className="page_bg">
                     <img src="images/coffee_shop.jfif" alt="coffee shop" className="shop_img"></img>
                 </div>
-                <AppHeader/>
                 <h1>Our coffee</h1>
             </div>
             <main className="page_main">

@@ -1,5 +1,4 @@
 import './forYourPleasure.css';
-import AppHeader from '../../components/appHeader/AppHeader';
 import InfoWithImage from '../../components/infoWithImage/InfoWithImage';
 import GoodsList from '../../components/goodsList/GoodsList';
 import { Helmet } from 'react-helmet';
@@ -21,7 +20,6 @@ const ForYourPleasurePage = ({onItemSelected}) => {
                 <div className="page_bg">
                     <img src="images/for_your_pleasure.jpg" alt="for your pleasure" className="shop_img"></img>
                 </div>
-                <AppHeader/>
                 <h1>For your pleasure</h1>
             </div>
             <main className="page_main">
